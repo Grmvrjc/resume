@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Pangolin', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f141e;
+    background: #f1f1f1;
+    margin: 10px;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 5px;
+    padding-top: 30px;
+}
+
+.foto {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 10%;
+    margin: 15px;
+}
+
+.info {
+    display: flex;
+}
+
+.info p {
+    font-style: italic;
+    color: #86898f;
+}
+
+.card {
+    border-radius: 20px;    
+    margin: 16px;
+    margin-bottom: 20px;
+    padding: 25px 40px;
+}
+
+.bio {
+    margin: 20px;
+    padding: 15px;
+    font-size: 19px;
+}
+.bio h1 {
+    margin-bottom: 15px;
+}
+
+.bio p {
+    margin-bottom: 20px;
+    padding: 5px 0px;
+}
+
+.bio h4 {
+    margin-bottom: 4px;
+}
+
+.years {
+    min-width: 54px;
+}
+
+.hobby {
+    background-color: rgba(189, 235, 222, 0.4);
+}
+
+.hobby .list {
+    list-style: none;
+}
+
+.hobby .list li{
+    padding-bottom: 4px;
+}
+
+.jobs {
+    background-color:rgba(248, 195, 194, .2);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #535558;
+}
+
+a:hover {
+    text-decoration-line: underline;    
+}
+
+a:active {
+    color: #e49090;
+}
+
+a:visited {
+    color: #86898f2f;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 8px;
+    padding-right: 4px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f;
+}
+
+.contacts h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    color: #6e6e6e;
+}
+
+.forms {
+    display: block;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .forms {    
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .forms:last-child {
+    margin-right: 0;
+}
+
+.forms input,  .forms textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #a5a3a3;
+    box-sizing: border-box;
+    padding: 15px 0 10px;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+
+}
+
+.btn {
+    background: #111;
+    color: #fff;
+    padding: 10px 15px;
+    font-family: inherit;
+    border-radius: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    opacity: .75;
+}
+
+@media (max-width: 900px) {
+    .info {
+       display: block;
+       text-align: center;
+    }
+
+    .foto {
+       margin-left: calc(width / 2);
+    }
+
+    .form-row {
+       display: block;
+    }
+
+    .form-row .forms {    
+       margin-right: 20px;
+       width: 100%;        
+       margin-bottom: 30px;
+   }
+   
+
+}
